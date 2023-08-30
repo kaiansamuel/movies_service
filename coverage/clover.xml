@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1693358578192" clover="3.2.0">
-  <project timestamp="1693358578193" name="All files">
-    <metrics statements="19" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="1" elements="24" coveredelements="13" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+<coverage generated="1693359493158" clover="3.2.0">
+  <project timestamp="1693359493159" name="All files">
+    <metrics statements="19" coveredstatements="13" conditionals="5" coveredconditionals="2" methods="2" coveredmethods="2" elements="26" coveredelements="17" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
     <file name="database.js" path="/home/kaian/Estudos/NodeJs/LuizTools/Projetos/cinema_microservice/movies_service/src/config/database.js">
-      <metrics statements="19" coveredstatements="11" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <metrics statements="19" coveredstatements="13" conditionals="5" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
@@ -15,9 +15,9 @@
       <line num="9" count="0" type="cond" truecount="0" falsecount="1"/>
       <line num="10" count="0" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
-      <line num="12" count="0" type="stmt"/>
-      <line num="13" count="0" type="stmt"/>
-      <line num="14" count="0" type="stmt"/>
+      <line num="12" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="0" type="cond" truecount="0" falsecount="1"/>
       <line num="15" count="0" type="stmt"/>
       <line num="16" count="0" type="stmt"/>
       <line num="17" count="0" type="stmt"/>
