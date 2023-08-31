@@ -2,6 +2,8 @@ const { test, expect } = require('@jest/globals')
 const server = require('./server')
 const request = require('supertest')
 
+const apiMock = jest.fn((app, repository) => true)
+
 test('Server Start', async () => {
   const app = await server.start()
   expect(app).toBeTruthy()

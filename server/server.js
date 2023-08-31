@@ -5,7 +5,7 @@ const helmet = require('helmet')
 
 const server = null
 
-async function start(){
+async function start(api, repository){
   const app = express()
 
   app.use(helmet())
@@ -14,6 +14,8 @@ async function start(){
   app.get('health', (req, res, net) => {
     res.send(`The service ${process.env.MS_NAME} is running at ${process.env.PORT}`)
   })
+
+  app.use(app, repository)
 
   app.use((error, req, res, next) => {
     console.error(error)
