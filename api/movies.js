@@ -14,7 +14,7 @@ module.exports = (app, repository) => {
     res.json(movie)
   })
 
-  app.get('movies', (req, res, next) => {
+  app.get('movies', async (req, res, next) => {
     const movies = await repository.getAllMovies()
     if(!movies || !movies.length) return res.sendStatus(404)
 
